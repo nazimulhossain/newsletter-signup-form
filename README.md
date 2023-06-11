@@ -28,12 +28,30 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- Desktop View :
+
+![](./screenshot-desktop.png)
+
+- Desktop View Active State :
+
+![](./screenshot-desktop-active.png)
+
+- Desktop Error View :
+
+![](./screenshot-desktop-error.png)
+
+- Mobile View :
+
+![](./screenshot-mobile-1.jpeg)
+
+- Mobile View 2 :
+
+![](./screenshot-mobile-2.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/nazimulhossain/newsletter-signup-form](https://github.com/nazimulhossain/newsletter-signup-form)
+- Live Site URL: [https://nazimulhossain.github.io/newsletter-signup-form/](https://nazimulhossain.github.io/newsletter-signup-form/)
 
 ## My process
 
