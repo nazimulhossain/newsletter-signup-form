@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+}
+
+html {
+  font-size: 62.5;
+  @include phone {
+    font-size: 50%;
+  }
+
+  @include phone-s {
+    font-size: 40%;
+  }
+}
+
+.hidden {
+  display: none !important;
+}

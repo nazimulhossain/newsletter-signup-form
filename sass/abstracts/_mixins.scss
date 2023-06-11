@@ -1,0 +1,11 @@
+@mixin phone {
+  @media (max-width: 37.5em) {
+    @content;
+  }
+}
+
+@mixin phone-s {
+  @media (max-width: 30em) {
+    @content;
+  }
+}

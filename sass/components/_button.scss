@@ -1,0 +1,24 @@
+.button {
+  text-align: center;
+  font-size: $font-size-small;
+  font-weight: 700;
+  color: $white;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 1.2rem 2.4rem;
+  background-color: $dark-slate-grey;
+
+  &:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #f06595, $tomato, $orange);
+  }
+
+  &__success {
+    margin-top: auto;
+  }
+
+  @include phone {
+    font-size: 3rem;
+    padding: 3.2rem 5rem;
+  }
+}

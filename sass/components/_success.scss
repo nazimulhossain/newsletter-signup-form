@@ -1,0 +1,21 @@
+.success {
+  max-width: 30rem;
+  padding: 3rem;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.4);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  &__email {
+    font-weight: 700;
+  }
+  @include phone {
+    min-height: 100vh;
+    min-width: 100vw;
+    border-radius: 0;
+    padding: 4rem;
+    padding-top: 18rem;
+    gap: 4.4rem;
+  }
+}
