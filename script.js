@@ -1,4 +1,5 @@
 const button = document.querySelector('.button');
+const successButton = document.querySelector('.button__success');
 const form = document.querySelector('.signup__form');
 const sectionSignUp = document.querySelector('.section-signup');
 const sectionSuccess = document.querySelector('.success');
@@ -17,4 +18,10 @@ button.addEventListener('click', (e) => {
     email.classList.add('invalid');
     form.classList.add('error');
   }
+});
+
+successButton.addEventListener('click', function () {
+  sectionSignUp.classList.remove('hidden');
+  sectionSuccess.classList.add('hidden');
+  document.getElementById('email').value = '';
 });

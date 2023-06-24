@@ -9,7 +9,14 @@ button {
 }
 
 html {
-  font-size: 62.5;
+  font-size: 62.5%;
+  @include respond(tab-land) {
+    font-size: 65%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 70%;
+  }
   @include phone {
     font-size: 50%;
   }
@@ -17,8 +24,24 @@ html {
   @include phone-s {
     font-size: 40%;
   }
+
+  @include respond(big-desk) {
+    font-size: 90%;
+  }
 }
 
 .hidden {
   display: none !important;
+}
+
+.author {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: $orange;
+  &__links:link,
+  &__links:visited {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+  }
 }
